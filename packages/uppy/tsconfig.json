@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.shared" ,
+  "compilerOptions": {
+    "allowJs": true ,
+    "emitDeclarationOnly": false ,
+    "skipLibCheck": true ,
+    "noEmit": true
+  } ,
+  "include": [
+    "types/*"
+  ]
+}
